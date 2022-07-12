@@ -124,7 +124,7 @@ def patch_update_drink(jwt, id):
         abort(404)
     # returns a 400 error if no title is sent
     if title is None:
-        abort(400)
+        abort(404)
 
     try:
 
